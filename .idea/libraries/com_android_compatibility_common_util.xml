@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.android.compatibility.common.util">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/src/javalib/com.android.compatibility.common.util.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

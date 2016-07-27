@@ -1,0 +1,72 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\CtsVerifier.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* Android.mk
+* include\
+* include\colorchecker\
+* include\colorchecker\autolocktest.h
+* include\colorchecker\colorcheckertest.h
+* include\colorchecker\exposurecompensationtest.h
+* include\colorchecker\imagetesthandler.h
+* include\colorchecker\meteringtest.h
+* include\colorchecker\testingimage.h
+* include\colorchecker\vec2.h
+* include\colorchecker\vec3.h
+* include\colorchecker\whitebalancetest.h
+* lib\
+* lib\Android.mk
+* lib\colorchecker\
+* lib\colorchecker\Android.mk
+* lib\colorchecker\autolocktest.cpp
+* lib\colorchecker\colorcheckertest.cpp
+* lib\colorchecker\exposurecompensationtest.cpp
+* lib\colorchecker\imagetesthandler.cpp
+* lib\colorchecker\meteringtest.cpp
+* lib\colorchecker\testingimage.cpp
+* lib\colorchecker\vec2.cpp
+* lib\colorchecker\vec3.cpp
+* lib\colorchecker\whitebalancetest.cpp
+* proguard.flags
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* jni\ => app\src\main\jni\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\android\cts\verifier\projection\IProjectionService.aidl => app\src\main\aidl\com\android\cts\verifier\projection\IProjectionService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
